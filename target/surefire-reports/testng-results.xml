@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-06T10:45:59 IST" name="SanityTests" finished-at="2021-02-06T10:46:01 IST" duration-ms="1960">
+    <groups>
+    </groups>
+    <test started-at="2021-02-06T10:45:59 IST" name="Epam Onboarding Test" finished-at="2021-02-06T10:46:01 IST" duration-ms="1960">
+      <class name="com.epam.oops.polymorphism.MethodOverloadTest">
+        <test-method signature="checkMethodOverloading()[pri:0, instance:com.epam.oops.polymorphism.MethodOverloadTest@7bedc48a]" started-at="2021-02-06T10:46:01 IST" name="checkMethodOverloading" finished-at="2021-02-06T10:46:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMethodOverloading -->
+      </class> <!-- com.epam.oops.polymorphism.MethodOverloadTest -->
+      <class name="com.epam.oops.polymorphism.MethodOverridingTest">
+        <test-method signature="validateOverriding()[pri:0, instance:com.epam.oops.polymorphism.MethodOverridingTest@131ef10]" started-at="2021-02-06T10:46:01 IST" name="validateOverriding" finished-at="2021-02-06T10:46:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOverriding -->
+      </class> <!-- com.epam.oops.polymorphism.MethodOverridingTest -->
+      <class name="com.epam.oops.abstraction.BrowserTest">
+        <test-method signature="getBrowserAndNavigate()[pri:0, instance:com.epam.oops.abstraction.BrowserTest@6c40365c]" started-at="2021-02-06T10:46:00 IST" name="getBrowserAndNavigate" finished-at="2021-02-06T10:46:01 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserAndNavigate -->
+      </class> <!-- com.epam.oops.abstraction.BrowserTest -->
+      <class name="com.epam.oops.encapsulation.EncapsulationTest">
+        <test-method signature="validateEncapsulation()[pri:0, instance:com.epam.oops.encapsulation.EncapsulationTest@38afe297]" started-at="2021-02-06T10:46:01 IST" name="validateEncapsulation" finished-at="2021-02-06T10:46:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEncapsulation -->
+      </class> <!-- com.epam.oops.encapsulation.EncapsulationTest -->
+      <class name="com.epam.oops.association.AssociationTest">
+        <test-method signature="validateAssociation()[pri:0, instance:com.epam.oops.association.AssociationTest@2df3b89c]" started-at="2021-02-06T10:46:01 IST" name="validateAssociation" finished-at="2021-02-06T10:46:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAssociation -->
+      </class> <!-- com.epam.oops.association.AssociationTest -->
+      <class name="com.epam.oops.composition.CompositionTest">
+        <test-method signature="validateComposition()[pri:0, instance:com.epam.oops.composition.CompositionTest@23348b5d]" started-at="2021-02-06T10:46:01 IST" name="validateComposition" finished-at="2021-02-06T10:46:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComposition -->
+      </class> <!-- com.epam.oops.composition.CompositionTest -->
+      <class name="com.epam.oops.inheritance.InheritanceTest">
+        <test-method signature="validateInheritance()[pri:0, instance:com.epam.oops.inheritance.InheritanceTest@55b0dcab]" started-at="2021-02-06T10:46:01 IST" name="validateInheritance" finished-at="2021-02-06T10:46:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInheritance -->
+      </class> <!-- com.epam.oops.inheritance.InheritanceTest -->
+    </test> <!-- Epam Onboarding Test -->
+  </suite> <!-- SanityTests -->
+</testng-results>

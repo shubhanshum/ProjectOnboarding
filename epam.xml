@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SanityTests" verbose="1" >
+  <test name="Epam Onboarding Test" >
+   <classes>
+   <class name="com.epam.oops.abstraction.BrowserTest" />
+   <class name="com.epam.oops.polymorphism.MethodOverloadTest" />
+   <class name="com.epam.oops.polymorphism.MethodOverridingTest" />
+   <class name="com.epam.oops.inheritance.InheritanceTest" />
+   <class name="com.epam.oops.encapsulation.EncapsulationTest" />
+   <class name="com.epam.oops.association.AssociationTest" />
+   <class name="com.epam.oops.composition.CompositionTest" />
+   </classes>
+  </test>
+</suite>
