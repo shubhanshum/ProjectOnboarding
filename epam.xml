@@ -9,6 +9,10 @@
    <class name="com.epam.oops.encapsulation.EncapsulationTest" />
    <class name="com.epam.oops.association.AssociationTest" />
    <class name="com.epam.oops.composition.CompositionTest" />
+   <class name="com.epam.collection.list.ArrayListTest" />
+   <class name="com.epam.collection.list.LinkedListTest" />
+   <class name="com.epam.collection.list.VectorTest" />
+   <class name="com.epam.collection.list.StackTest" />
    </classes>
   </test>
 </suite>
