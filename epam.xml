@@ -13,6 +13,15 @@
    <class name="com.epam.collection.list.LinkedListTest" />
    <class name="com.epam.collection.list.VectorTest" />
    <class name="com.epam.collection.list.StackTest" />
+   <class name="com.epam.collection.queue.PriorityQueueTest" />
+   <class name="com.epam.collection.queue.ArrayDequeTest" />
+   <class name="com.epam.collection.map.HashMapTest" />
+   <class name="com.epam.collection.map.LinkedHashmapTest" />
+   <class name="com.epam.collection.map.HashtableTest" />
+   <class name="com.epam.collection.map.IdentityHashmapTest" />
+   <class name="com.epam.collection.set.HashSetTest" />
+   <class name="com.epam.collection.set.LinkedHashSetTest" />
+   <class name="com.epam.collection.set.TreeSetTest" />
    </classes>
   </test>
 </suite>
