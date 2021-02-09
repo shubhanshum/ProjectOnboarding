@@ -22,6 +22,8 @@
    <class name="com.epam.collection.set.HashSetTest" />
    <class name="com.epam.collection.set.LinkedHashSetTest" />
    <class name="com.epam.collection.set.TreeSetTest" />
+   <class name="com.epam.designfactory.SingletonTest" />
+   <class name="com.epam.designfactory.FactoryTest" />
    </classes>
   </test>
 </suite>
