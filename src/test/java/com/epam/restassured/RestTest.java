@@ -1,5 +1,6 @@
 package com.epam.restassured;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.epam.utilities.PropUtils;
@@ -18,5 +19,7 @@ public class RestTest {
 		Payload pay=(Payload) RestObjects.getPojoValue(response, payload);
 		System.out.println(pay.getEmail());
 		System.out.println(pay.getName());
+		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 }
+
