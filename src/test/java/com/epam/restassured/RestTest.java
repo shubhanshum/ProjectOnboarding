@@ -16,7 +16,7 @@ public class RestTest {
 		Payload payload=new Payload("shubhanshu khannh", "sm2.mishra@gmail.com", "Active");
 		
 		Response response=RestObjects.patchObject(baseUri, basePath, payload);
-		Payload pay=(Payload) RestObjects.getPojoValue(response, payload);
+		Payload pay=(Payload) RestObjects.getMapperObject(response, payload);
 		System.out.println(pay.getEmail());
 		System.out.println(pay.getName());
 		Assert.assertEquals(response.getStatusCode(), 200);

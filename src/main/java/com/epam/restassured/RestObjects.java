@@ -37,7 +37,9 @@ public class RestObjects {
 		 * @param payload
 		 * @return Pojo class object
 		 */
-		public static Object getPojoValue(Response response, Object payload) {
+		public static Object getMapperObject(Response response, Object payload) {
+			
+			
 			Object mapperObj = null;
 			if (mapper == null) {
 				mapper = new ObjectMapper();
