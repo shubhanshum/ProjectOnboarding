@@ -30,4 +30,5 @@ public class Product {
 	public String getGrade() {
 		return grade;
 	}
+	
 }

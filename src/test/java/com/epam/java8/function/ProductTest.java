@@ -15,6 +15,7 @@ public class ProductTest {
 	
 	@Test(priority=1)
 	public void test1() {
+		
 		List<Product> list=new ArrayList<>();
 		Product products1=new Product("Television", 2000, "Electronics", "A");
 		Product products2=new Product("Tape Recorder", 3000, "Electronics", "A");
@@ -42,6 +43,7 @@ public class ProductTest {
 	
 	@Test(priority=2)
 	public void test2() {
+		
 		List<Product> list=new ArrayList<>();
 		Product products1=new Product("Television", 2000, "Electronics", "A");
 		Product products2=new Product("Tape Recorder", 3000, "Electronics", "A");
@@ -72,6 +74,7 @@ public class ProductTest {
 	
 	@Test(priority=3)
 	public void test3() {
+		
 		List<Product> list=new ArrayList<>();
 		Product products1=new Product("Television", 2000, "Electronics", "A");
 		Product products2=new Product("Tape Recorder", 3000, "Electronics", "A");
@@ -101,6 +104,7 @@ public class ProductTest {
 	
 	@Test(priority=4)
 	public void test4() {
+		
 		List<Product> list=new ArrayList<>();
 		Product products1=new Product("Television", 2000, "Electronics", "A");
 		Product products2=new Product("Tape Recorder", 3000, "Electronics", "A");
