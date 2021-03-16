@@ -2,7 +2,7 @@
 <suite name="SanityTests" verbose="1" >
   <test name="Epam Onboarding Test" >
    <classes>
-   <class name="com.epam.oops.abstraction.BrowserTest" />
+  <class name="com.epam.oops.abstraction.BrowserTest" />
    <class name="com.epam.oops.polymorphism.MethodOverloadTest" />
    <class name="com.epam.oops.polymorphism.MethodOverridingTest" />
    <class name="com.epam.oops.inheritance.InheritanceTest" />
@@ -25,6 +25,16 @@
    <class name="com.epam.designfactory.SingletonTest" />
    <class name="com.epam.designfactory.FactoryTest" />
    <class name="com.epam.restassured.RestTest" />
+   <class name="com.epam.java8.bifunctions.BiFunctionTests" />
+   <class name="com.epam.java8.constreference.EmployeeTest" />
+   <class name="com.epam.java8.consumerandsupplier.ConsumerTest" />
+   <class name="com.epam.java8.consumerandsupplier.SupplierTest" />
+   <class name="com.epam.java8.dateandtime.DateAndTimeTest" />
+   <class name="com.epam.java8.function.ProductTest" />
+    <class name="com.epam.java8.predicate.ProductPriceTest" />
+    <class name="com.epam.java8.predicate.ResponseTest" />
+    <class name="com.epam.java8.primitiveinterface.PrimitiveInterfTest" />
+    <class name="com.epam.java8.stream.ProductTest" />
    </classes>
   </test>
 </suite>
